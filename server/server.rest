@@ -1,0 +1,19 @@
+###
+
+POST http://127.0.0.1:8000/api/create
+Content-Type: application/json
+
+{
+  "task":"Do something",
+  "status":"Incomplete"
+}
+
+
+###
+
+PUT http://127.0.0.1:8000/api/update
+Content-Type: application/json
+
+{
+  "task":"Do Laundry"
+}
